@@ -29,14 +29,14 @@ export const Mission = (props) => {
                   Our Vision
                 </h2>
                 <p className=" font-marcellus text-[20px] text-text-secondary-default leading-[150%] md:px-[100px] py-9">
-                  Our vision is to create future-ready digital infrastructure
-                  for the service industry, and bring small and beautiful
+                  Our vision is to make our country One step ahead in
+                  agriculture and Tourism sector and bring small and beautiful
                   changes to the world.
                 </p>
                 <p className=" font-marcellus text-[20px] text-text-secondary-default leading-[150%] md:px-[100px] py-5">
-                  Everyone can enjoy inclusive and green financial services;
-                  Every small and micro enterprise can have equal development
-                  opportunities;
+                  Chamling group is group of companies based on pokhara with the
+                  mission and vision to change the world through investment,
+                  agriculture and tourism
                 </p>
               </Fade>
             </div>
