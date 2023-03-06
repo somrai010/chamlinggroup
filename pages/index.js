@@ -18,7 +18,7 @@ export default function Home() {
         />
         <link rel="icon" href="/logo.png" />
         <meta property="og:title" content="Chamling Group Pvt. Ltd." />
-        <meta property="og:image" content="/cover111.jpg" />
+        <meta property="og:image" content="/headerphoto.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
