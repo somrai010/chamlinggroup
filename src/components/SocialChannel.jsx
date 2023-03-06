@@ -43,7 +43,7 @@ export const SocialChannel = (props) => {
             </div>
         
             <div className="flex-grow ">
-              <Link href="#">
+              <Link href="https://www.instagram.com/chamlinggroup22/">
                 <h2 className="md:text-[25px] text-[16px] text-text-primary-default font-semibold">
                   <span className="px-3 relative top-[-1px]">
                     <InstagramIcon fontSize="large" />

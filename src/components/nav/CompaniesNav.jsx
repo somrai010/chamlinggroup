@@ -7,7 +7,7 @@ export const CompaniesNav = () => {
     <div>
       <div className="absolute left-0 top-[92px] ml-[15vw]  w-[70vw] h-[300px] bg-white-default rounded-md p-9 shadow-myshadow flex">
         <div className="flex-grow w-[60%]">
-          {/* <h2 className=" text-text-primary-default text-[20px] pb-5 font-semibold">
+          <h2 className=" text-text-primary-default text-[20px] pb-5 font-semibold">
             Companies
           </h2>{" "}
           <Link href="#">
@@ -15,7 +15,9 @@ export const CompaniesNav = () => {
               <span className="px-2">
                 <ArrowCircleRightIcon />
               </span>
-              Chamling Cycle Shop
+          
+              Chamling Spa Pvt. Ltd.
+
             </p>
           </Link>
           <Link href="#">
@@ -23,7 +25,8 @@ export const CompaniesNav = () => {
               <span className="px-2">
                 <ArrowCircleRightIcon />
               </span>
-              Chamling Spa & Beauty Parlour
+              Chamling Cycle Pvt. Ltd.
+
             </p>
           </Link>
           <Link href="#">
@@ -31,9 +34,9 @@ export const CompaniesNav = () => {
               <span className="px-2">
                 <ArrowCircleRightIcon />
               </span>
-              Chamling Adventure & Expedition
+              Chamling Journey Pvt. Ltd.
             </p>
-          </Link> */}
+          </Link>
          
         </div>
 

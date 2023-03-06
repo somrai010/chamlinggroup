@@ -17,7 +17,7 @@ export const NavHeader = (props) => {
           </Link>
         </span>
         <span>
-          <Link href="#">
+          <Link href="https://www.instagram.com/chamlinggroup22/">
             <InstagramIcon />
           </Link>
         </span>
