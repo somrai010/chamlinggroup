@@ -37,7 +37,7 @@ export const NavHeader = (props) => {
           <span className="px-3 ">
             <PhoneInTalkIcon />
           </span>
-          98576657757
+          985-6067169
         </h2>
       </div>
     </div>

@@ -21,7 +21,7 @@ export const ContactNav = () => {
               <span className="px-2">
                 <PhoneIphoneIcon />
               </span>
-              98576657757
+              985-6067169
             </p>
           
             <p className=" text-text-secondary-default text-[15px] pl-5 leading-[250%]">
