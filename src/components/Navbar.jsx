@@ -7,6 +7,7 @@ import { useState } from "react";
 import { IconButton } from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
+import { BrandModal } from "./BrandModal";
 
 import { CorporateNav } from "./nav/CorporateNav";
 import { CompaniesNav } from "./nav/CompaniesNav";
@@ -14,11 +15,14 @@ import { MediaNav } from "./nav/MediaNav";
 import { ContactNav } from "./nav/ContactNav";
 import { MobileNav } from "./nav/MobileNav";
 
+import { BrandNav } from "./nav/BrandNav";
+
 export const Navbar = () => {
   const [showCorporate, setShowCorporate] = useState(false);
   const [showCompanies, setShowCompaniesNav] = useState(false);
   const [showMedia, setShowMediaNav] = useState(false);
   const [showContacts, setShowContactsNav] = useState(false);
+  const [showBrands,setShowBrands]=useState(false)
 
   const [shownav, setShowNav] = useState(false);
 
@@ -112,15 +116,26 @@ export const Navbar = () => {
             )}
           </div>
 
-          <div className="flex-shrink h-full min-h-[60px]">
+          <div className="flex-shrink h-full min-h-[60px]" 
+           onMouseEnter={() => setShowBrands(true)}
+           onMouseLeave={() => setShowBrands(false)}
+          >
             <Link href="#">
               <h2 className=" text-text-primary-default text-[18px] font-normal">
-                Careers
+                Brands
                 <span>
                   <KeyboardArrowDownIcon />
                 </span>
               </h2>
             </Link>
+
+            {showBrands && (
+              <div className="transition-opacity duration-700 ease-linear opacity-100 ">
+                <BrandNav />
+                {/* <div><BrandModal/></div> */}
+              </div>
+            )}
+           
           </div>
 
           <div

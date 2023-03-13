@@ -16,6 +16,7 @@ export default function Home() {
           name="description"
           content="Chamling group is group of companies registered in pokhara with the aim of changing the nation."
         />
+        <meta name='keywords' content="Chamling group, Chamling brand, Chamling company, Chamling organizations, Chamling factories, Chamling cycle "/>
         <link rel="icon" href="/logo.png" />
         <meta property="og:title" content="Chamling Group Pvt. Ltd." />
         <meta property="og:image" content="/headerphoto.jpg" />
