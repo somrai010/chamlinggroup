@@ -10,13 +10,13 @@ export const CompaniesNav = () => {
           <h2 className=" text-text-primary-default text-[20px] pb-5 font-semibold">
             Companies
           </h2>{" "}
-          <Link href="#">
+          <Link href="https://www.chamlingcycle.com/">
             <p className=" text-text-secondary-default text-[15px] pl-5 leading-[200%]">
               <span className="px-2">
                 <ArrowCircleRightIcon />
               </span>
           
-              <Link href="https://www.chamlingcycle.com/">Chamling Cycle Shop Pvt. Ltd.</Link>
+              Chamling Cycle Shop Pvt. Ltd.
 
 
             </p>
