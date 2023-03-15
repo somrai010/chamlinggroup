@@ -16,7 +16,7 @@ export const CompaniesNav = () => {
                 <ArrowCircleRightIcon />
               </span>
           
-              Chamling Cycle Shop Pvt. Ltd.
+              Chamling Cycle P. Ltd.
 
 
             </p>
@@ -26,7 +26,7 @@ export const CompaniesNav = () => {
               <span className="px-2">
                 <ArrowCircleRightIcon />
               </span>
-              Chamling Spa & Beauty Parlour Pvt. Ltd.
+              Chamling Spa P. Ltd.
 
 
             </p>
@@ -37,7 +37,7 @@ export const CompaniesNav = () => {
                 <ArrowCircleRightIcon />
               </span>
               
-              Chamling Adventure & Exposition Pvt. Ltd.
+              Chamling Adventures P. Ltd.
             </p>
           </Link>
          
