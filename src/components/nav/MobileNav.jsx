@@ -20,14 +20,14 @@ export const MobileNav = (props) => {
       {showCompanies && (
         <div>
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
-            Chamling Spa Pvt. Ltd.
+            Chamling Cycle P. Ltd
           </Button>
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
-            Chamling Cycle Pvt. Ltd.
+            Chamling Spa P. Ltd
           </Button>
 
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
-            Chamling Journey Pvt. Ltd.
+            Chamling Adventures P. Ltd
           </Button>
         </div>
       )}
@@ -44,7 +44,7 @@ export const MobileNav = (props) => {
       {showBrands && (
         <div>
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
-            BiCycles
+            Bicycles
           </Button>
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
             Apparels
