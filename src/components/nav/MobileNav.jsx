@@ -1,5 +1,6 @@
 import { Button } from "@mui/material";
 import { useState } from "react";
+import Link from "next/link";
 
 export const MobileNav = (props) => {
   const [showCompanies, setShowCompanies] = useState(false);
@@ -20,7 +21,7 @@ export const MobileNav = (props) => {
       {showCompanies && (
         <div>
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
-            Chamling Cycle P. Ltd
+            <Link href={"https://www.chamlingcycle.com/"}>Chamling Cycle P. Ltd</Link>
           </Button>
           <Button fullWidth variant="text" sx={{ backgroundColor: "white" }}>
             Chamling Spa P. Ltd
