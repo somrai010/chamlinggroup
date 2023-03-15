@@ -7,7 +7,7 @@ export const Header = (props) => {
   return (
     <div>
       <div className="relative object-cover w-full h-[90vh]">
-        <Image fill src="/cover3.jpg" alt="header image" />
+        <Image fill src="/cover5.jpg" alt="header image" />
         <div className="absolute w-full h-auto md:top-[55vh] top-[50vh] text-center">
           <div>
             <h2 className=" font-marcellus md:text-[40px] text-[25px] text-white-default ">Chamling Group 2023 | Achievements</h2>
